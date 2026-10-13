@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts & Icons -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://googleapis.com" />
+</head>
+<body>
+
+    <div class="chat-container">
+        <!-- Chat Header -->
+        <div class="chat-header">
+            <div class="bot-info">
+                <span class="material-symbols-outlines bot-icon">smart_toy</span>
+                <div>
+                    <h2>Nova AI</h2>
+                    <p class="status">⚡ Online</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat History Box -->
+        <div class="chat-box" id="chatBox">
+            <div class="message bot-message">
+                Hello! I am Nova, your AI assistant. How can I help you today?
+            </div>
+        </div>
+
+        <!-- Chat Input Controls -->
+        <form class="chat-input-area" id="chatForm">
+            <input type="text" id="userInput" placeholder="Type a message..." autocomplete="off" required>
+            <button type="submit" id="sendBtn">
+                <span class="material-symbols-outlined">send</span>
+            </button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
